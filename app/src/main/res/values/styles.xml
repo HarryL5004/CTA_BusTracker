@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:colorControlNormal">@color/colorText</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="ExpandedTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="mySwitch" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Active Thumb & Track Color !-->
+        <item name="colorControlActivated">@color/colorOrange</item>
+        <!-- Inactive Thumb Color !-->
+        <item name="android:colorForeground">@color/colorDarkGrey</item>
+        <!-- Inactive Track Color !-->
+        <item name="colorSwitchThumbNormal">@color/colorGrey</item>
+    </style>
+</resources>
